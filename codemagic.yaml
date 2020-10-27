@@ -9,5 +9,5 @@ workflows:
             - flutter packages pub get
             - flutter analyze --write=analyzer-output.txt
             - flutter test --coverage
-       artifacts:
+        artifacts:
             - coverage/lcov.info
